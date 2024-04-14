@@ -13,6 +13,13 @@
 		A8E9D7A92BC95BE20095CB91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8E9D7A82BC95BE20095CB91 /* Base */; };
 		A8E9D7AB2BC95BE40095CB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E9D7AA2BC95BE40095CB91 /* Assets.xcassets */; };
 		A8E9D7AE2BC95BE40095CB91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8E9D7AD2BC95BE40095CB91 /* Base */; };
+		A8E9D7B62BC95F830095CB91 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9D7B52BC95F830095CB91 /* CollectionViewCell.swift */; };
+		A8E9D7B82BC9638C0095CB91 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9D7B72BC9638C0095CB91 /* UIColor+Ext.swift */; };
+		A8E9D7BA2BC97EA80095CB91 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9D7B92BC97EA70095CB91 /* CartViewController.swift */; };
+		A8E9D7BC2BC97FDA0095CB91 /* CartTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E9D7BB2BC97FDA0095CB91 /* CartTableCell.xib */; };
+		A8E9D7BE2BC980450095CB91 /* CartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9D7BD2BC980450095CB91 /* CartTableCell.swift */; };
+		A8E9D7C02BC9857E0095CB91 /* CollectionImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E9D7BF2BC9857E0095CB91 /* CollectionImageCell.xib */; };
+		A8E9D7C22BC985A20095CB91 /* CollectionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9D7C12BC985A20095CB91 /* CollectionImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		A8E9D7AA2BC95BE40095CB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E9D7AD2BC95BE40095CB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8E9D7AF2BC95BE40095CB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E9D7B52BC95F830095CB91 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A8E9D7B72BC9638C0095CB91 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		A8E9D7B92BC97EA70095CB91 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A8E9D7BB2BC97FDA0095CB91 /* CartTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableCell.xib; sourceTree = "<group>"; };
+		A8E9D7BD2BC980450095CB91 /* CartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableCell.swift; sourceTree = "<group>"; };
+		A8E9D7BF2BC9857E0095CB91 /* CollectionImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionImageCell.xib; sourceTree = "<group>"; };
+		A8E9D7C12BC985A20095CB91 /* CollectionImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				A8E9D7A12BC95BE20095CB91 /* AppDelegate.swift */,
 				A8E9D7A32BC95BE20095CB91 /* SceneDelegate.swift */,
 				A8E9D7A52BC95BE20095CB91 /* ViewController.swift */,
+				A8E9D7B52BC95F830095CB91 /* CollectionViewCell.swift */,
+				A8E9D7B92BC97EA70095CB91 /* CartViewController.swift */,
+				A8E9D7BB2BC97FDA0095CB91 /* CartTableCell.xib */,
+				A8E9D7BD2BC980450095CB91 /* CartTableCell.swift */,
+				A8E9D7B72BC9638C0095CB91 /* UIColor+Ext.swift */,
+				A8E9D7BF2BC9857E0095CB91 /* CollectionImageCell.xib */,
+				A8E9D7C12BC985A20095CB91 /* CollectionImageCell.swift */,
 				A8E9D7A72BC95BE20095CB91 /* Main.storyboard */,
 				A8E9D7AA2BC95BE40095CB91 /* Assets.xcassets */,
 				A8E9D7AC2BC95BE40095CB91 /* LaunchScreen.storyboard */,
@@ -125,6 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E9D7BC2BC97FDA0095CB91 /* CartTableCell.xib in Resources */,
+				A8E9D7C02BC9857E0095CB91 /* CollectionImageCell.xib in Resources */,
 				A8E9D7AB2BC95BE40095CB91 /* Assets.xcassets in Resources */,
 				A8E9D7AE2BC95BE40095CB91 /* Base in Resources */,
 				A8E9D7A92BC95BE20095CB91 /* Base in Resources */,
@@ -140,6 +163,11 @@
 			files = (
 				A8E9D7A62BC95BE20095CB91 /* ViewController.swift in Sources */,
 				A8E9D7A22BC95BE20095CB91 /* AppDelegate.swift in Sources */,
+				A8E9D7B82BC9638C0095CB91 /* UIColor+Ext.swift in Sources */,
+				A8E9D7C22BC985A20095CB91 /* CollectionImageCell.swift in Sources */,
+				A8E9D7B62BC95F830095CB91 /* CollectionViewCell.swift in Sources */,
+				A8E9D7BE2BC980450095CB91 /* CartTableCell.swift in Sources */,
+				A8E9D7BA2BC97EA80095CB91 /* CartViewController.swift in Sources */,
 				A8E9D7A42BC95BE20095CB91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

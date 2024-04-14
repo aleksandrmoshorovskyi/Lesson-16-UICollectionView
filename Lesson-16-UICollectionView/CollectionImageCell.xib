@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionImageCell" reuseIdentifier="CollectionViewCell" id="m3C-qu-guG" customClass="CollectionImageCell" customModule="Lesson_16_UICollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CZH-bl-pm9">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.logo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pp1-ZF-K0f">
+                        <rect key="frame" x="8" y="8.3333333333333357" width="112" height="110.33333333333331"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ox5-CP-Sj5">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="pp1-ZF-K0f" secondAttribute="trailing" constant="8" id="Awo-Vc-aQz"/>
+                    <constraint firstAttribute="bottom" secondItem="pp1-ZF-K0f" secondAttribute="bottom" constant="8" id="UP6-Lf-8Ds"/>
+                    <constraint firstAttribute="trailing" secondItem="ox5-CP-Sj5" secondAttribute="trailing" id="fcW-rK-LgU"/>
+                    <constraint firstItem="ox5-CP-Sj5" firstAttribute="leading" secondItem="CZH-bl-pm9" secondAttribute="leading" id="fzj-4k-zUA"/>
+                    <constraint firstItem="pp1-ZF-K0f" firstAttribute="leading" secondItem="CZH-bl-pm9" secondAttribute="leading" constant="8" id="rdA-PA-bu7"/>
+                    <constraint firstItem="ox5-CP-Sj5" firstAttribute="top" secondItem="CZH-bl-pm9" secondAttribute="top" id="s4Q-Nq-puh"/>
+                    <constraint firstItem="pp1-ZF-K0f" firstAttribute="top" secondItem="CZH-bl-pm9" secondAttribute="top" constant="8" id="tvW-s2-xmv"/>
+                    <constraint firstAttribute="bottom" secondItem="ox5-CP-Sj5" secondAttribute="bottom" id="wet-iz-gds"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="textLabel" destination="ox5-CP-Sj5" id="IKu-Bk-j0Z"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="-12"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="apple.logo" catalog="system" width="105" height="128"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
